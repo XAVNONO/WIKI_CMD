@@ -1,0 +1,4 @@
+Recapitulatif des commandes Linux Utiles :
+
+# Pour supprimer un dossier sans recevoir d’invite >>>
+rm -rf Simple-Directory
