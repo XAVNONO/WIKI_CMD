@@ -1,0 +1,8 @@
+
+
+
+# Arréter tout les container.
+docker stop $(docker ps -a -q)
+
+# Supprimer tout les container docker qui sont arrétés.
+docker rm $(docker ps -a -q)
