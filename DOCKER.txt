@@ -6,3 +6,9 @@ docker stop $(docker ps -a -q)
 
 # Supprimer tout les container docker qui sont arrétés.
 docker rm $(docker ps -a -q)
+
+# Supprime les conteneurs
+docker rm -vf
+
+# Supprime les images
+docker rmi -f
